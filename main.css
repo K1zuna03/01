@@ -1,0 +1,419 @@
+::-webkit-scrollbar {
+    width: 11px;
+}
+  
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: 5px 5px 5px -2px rgba(0, 0, 0, 0.2) inset;
+    background-color: #fff;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #ff0000, #8200de);
+}
+
+/* Тело сайта */
+
+body {
+    background-color: #fff;
+    width: 100%;
+    margin: 0 auto;
+    overflow-x: hidden;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Блок меню */
+
+.logo {
+    width: 100%;
+    height: 12vh;
+}
+
+.menu-block {
+    display: flex;
+    justify-content: space-between;
+    width: 74vw;
+    margin-left: 12vw;
+}
+
+.block {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    margin-top: 1vh;
+}
+
+.block p {
+    margin-top: 3vh;
+}
+
+.block p:hover {
+    text-decoration: underline;
+}
+
+#kategorii {
+    width: 24vw;
+    margin-right: 10vw;
+}
+
+/* Рекламный блок */
+
+.reklama {
+    background: url(./img/reklama.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 88vh;
+}
+
+/* Самые новые фильмы */
+
+.samoe-novoe {
+    width: 100%;
+    height: 68vh;
+}
+
+.novoe-main-block {
+    width: 74vw;
+    margin-left: 12vw;
+}
+
+.novoe-name {
+    font-size: 2.5rem;
+    text-align: center;
+    position: relative;
+    bottom: 3vh;
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+#name-block {
+    height: 0vh;
+    width: 24vw;
+    border: 2px solid #cecece;
+    margin-top: 6.2vh;
+}
+
+.novoe-filmi {
+    margin-top: 3vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.novoe-film {
+    width: 17vw;
+    height: 58vh;
+    display: inline-block;
+}
+
+.novoe-film:hover {
+    transform: scale(1.01);
+}
+
+.novoe-film img {
+    width: 330px;
+    height: 480px;
+}
+
+.novoe-film-info {
+    height: 10vh;
+}
+
+.novoe-film h1 {
+    font-size: 1.8rem;
+    height: 3vh;
+    position: relative;
+    bottom: 2vh;
+}
+
+.novoe-film h3 {
+    color: #A8A8A8;
+    height: 3vh;
+    position: relative;
+    bottom: 3vh;
+}
+
+/* Популярные фильмы */
+
+.popular-films {
+    width: 100%;
+    height: 106vh;
+}
+
+.popular-main-block {
+    width: 74vw;
+    margin-left: 12vw;
+}
+
+.popular-name {
+    font-size: 2.5rem;
+    text-align: center;
+    position: relative;
+    bottom: 3vh;
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Фильмы */
+
+.popular-film {
+    display: inline-block;
+    width: 36vw;
+    height: 44vh;
+    font-size: 1.1rem;
+    margin-top: 3vh;
+}
+
+.popular-film:hover {
+    background-color: #fcfcfc;
+    border-radius: 10px;
+    border: 1px solid #666666;
+    box-shadow: inset 0px 0px 5px #a3a3a3;
+    width: 35.9vw;
+    height: 43.9vh;
+    transform: scale(1.005);
+}
+
+.popular-film img {
+    width: 280px;
+    height: 430px;
+}
+
+.stolb-1 {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* первый блок инфы */
+
+.popular-info-1 {
+    height: 9vh;
+}
+
+.popular-info-1 h1 {
+    font-size: 1.7rem;
+    position: relative;
+    bottom: 2vh;
+}
+
+.popular-info-1 h3 {
+    position: relative;
+    bottom: 4vh;
+}
+
+.popular-info-1 h3 span {
+    color: #A8A8A8;
+    font-size: 1rem;
+}
+
+.popular-info-1 p {
+    color: red;
+    font-weight: 1000;
+    position: relative;
+    bottom: 5vh;
+}
+
+/* Второй блок инфы */
+
+.popular-info-2 {
+    height: 17vh;
+}
+
+.popular-info-2 p {
+    width: 20vw;
+    position: relative;
+    bottom: 1vh;
+}
+
+.popular-info-2 span {
+    color: #A8A8A8;
+    font-weight: 1000;
+}
+
+/* Третий блок инфы */
+
+.popular-info-3 {
+    position: relative;
+    height: 13.4vh;
+}
+
+.popular-info-3 p {
+    width: 20vw;
+    margin-top: -1.2vh;
+    font-size: 1.1rem;
+    position: relative;
+    bottom: 1.4vh;
+}
+
+.popular-info-3 h1 {
+    position: relative;
+    bottom: 1.4vh;
+    width: 20vw;
+    font-size: 1.1rem;
+}
+
+.popular-info-3 span {
+    color: #A8A8A8;
+    font-weight: 1000;
+}
+
+/* Самый популярный сериал */
+
+.popular-serial {
+    background: url(./img/plakat.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 65vh;
+    margin-bottom: 5vh;
+}
+
+.serial-block {
+    display: inline-block;
+}
+
+/* Заголовок */
+
+.zagolovok {
+    width: 30vw;
+    margin-left: 2vw;
+    color: #fff;
+    position: relative;
+    bottom: 2vh;
+}
+
+.zagolovok h1 {
+    font-size: 3rem;
+}
+
+.zagolovok h2 {
+    font-size: 4rem;
+    font-weight: 100;
+    position: relative;
+    bottom: 4vh;
+    left: 7vw;
+}
+
+/* Блок информации */
+
+.serial-info-block {
+    width: 30vw;
+    margin-left: 2vw;
+    position: relative;
+    bottom: 8vh;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 1000;
+}
+
+/* Блок доп. информации */
+
+.serial-dop-info-block {
+    width: 30vw;
+    margin-left: 2vw;
+    position: relative;
+    bottom: 5vh;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.serial-dop-info-block span {
+    color: red;
+    font-weight: 1000;
+}
+
+/* Кнопки */
+
+.knopki p {
+    background-color: #ff0000;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 1000;
+    position: relative;
+    left: 44.2vw;
+    bottom: 8vh;
+    margin-top: -1.5vh;
+    box-shadow: 0px 4px 5px #292929;
+}
+
+.knopki p:hover {
+    background-color: rgb(255, 0, 85);
+}
+
+.knopki img {
+    position: relative;
+    top: 1.3vh;
+}
+
+/* Подвал */
+
+footer {
+    background-color: #3C0000;
+    color: #fff;
+    height: 60vh;
+}
+
+.footer-sect {
+    position: relative;
+    top: 3vh;
+    left: 6vw;
+}
+
+.table {
+    display: inline-block;
+    width: 400px;
+    vertical-align: top;
+}
+
+.table h2 {
+    font-size: 30px;
+}
+
+.table a {
+    font-size: 22px;
+    color: #FF5656;
+}
+
+.uslovia {
+    font-size: 22px;
+}
+
+.soc-seti {
+    display: inline-block;
+    margin-left: 10px;
+    position: relative;
+    left: -10px;
+    top: -12px;
+}
+
+.contacts {
+    position: relative;
+    top: -20px;
+}
+
+#stroka-kont {
+    margin-top: -10px;
+}
+
+.kontakti {
+    font-size: 40px;
+    font-family: 'Inter-V';
+}
+
+.info {
+    font-size: 22px;
+    position: relative;
+    top: -18px;
+    color: #fff;
+}
+
+.prava, .dop-info {
+    font-size: 18px;
+    position: relative;
+    top: 12vh;
+}
